@@ -1,0 +1,35 @@
+.root1 {
+    display: flex;
+    background-color: greenyellow;
+    flex-direction: row;
+    /* height: 583px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.boxs1{
+ display: flex;
+width: 40%;
+background-color: pink;
+flex-direction: column;
+position: relative;
+
+}
+.boxs2{
+    width: 50%;
+background-color: cyan;
+
+
+}
+.boxs3{
+width: 10%;
+background-color: orange;  
+}
+
+.nikeTag{
+    font-size: 103px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}

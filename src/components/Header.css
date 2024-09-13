@@ -1,0 +1,55 @@
+
+.root {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* flex:1; */
+    height: 100px;
+}
+
+.box1 {
+    /* background-color: green; */
+    display: flex; justify-content: space-between; width: 40%;
+}
+.box2{
+    position: relative;
+}
+
+.jump{
+    font-size:54px ;
+    color: #FB5014;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.headText{
+    font-size: 24px;
+    font-weight: normal;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.input{
+    height: 52;
+    width: 414px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 14px;
+    color: black;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #00000020;
+    padding-right: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+ 
+}
+.input::placeholder{
+    color: black;
+}
